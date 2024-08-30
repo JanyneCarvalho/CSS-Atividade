@@ -426,3 +426,1276 @@ ut labore et dolore magna aliqua.
 </div>
 
 </body>
+
+CSS OUTLINE
+
+1. Set a solid, 5px outline border for the <div> element.
+
+<style>
+div {
+  outline-style: solid;
+  outline-width: 5px;
+}
+</style>
+<body>
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+</body>
+
+2. Set the color of the outline border to red.
+
+
+<style>
+div {
+  outline-style: solid;
+  outline-width: 5px;
+  
+outline-color: red;
+}
+</style>
+<body>
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+</body>
+
+3. Use the outline shorthand property to set a "4px", "dotted", "red" outline border for the <div> element.
+
+<style>
+div {
+  outline: 4px dotted red;
+}
+</style>
+<body>
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+</body>
+
+CSS TEXT
+
+1. Change the text color of all <p> elements to "red".
+
+
+<style>
+p {
+  color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2.Center align the <p> elements.
+
+<style>
+p {
+  text-align: center;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Remove the underline from the link.
+
+<style>
+a {
+  text-decoration: none;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+4. Style text in <h1> to uppercase letters, and text in <p> to capitalized letters.
+
+
+<style>
+h1 {
+  
+text-transform: uppercase;
+}
+p {
+  text-transform: capitalize;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+5. Indent the first line of the <p> element with 20px.
+
+<style>
+p {
+  text-indent: 20px;
+}
+</style>
+
+<p>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</p>
+
+CS FONT
+
+1. Set the font for <h1> to "Verdana".
+
+<style>
+h1 {
+  font-family: Verdana;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+2. Set the style of <h1> to "italic" text.
+
+<style>
+h1 {
+  font-style: italic;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+3. Set the font size of <h1> to 50px.
+
+<style>
+h1 {
+  font-size: 50px;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+4.Set the style of <p> elements as "bold" text.
+
+<style>
+p {
+  font-weight: bold;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>  
+</body>
+
+5. Use the correct font- property to style the <p> elements as "small-caps".
+
+
+<style>
+p {
+  
+font-variant
+: small-caps;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>  
+</body>
+
+CSS LINKS
+
+1. Set the color of links to "red".
+
+<style>
+a
+ {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+2. Set the style when you mouse over a link (hover) to red.
+
+<style>
+a:hover
+ {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+3. Set the style for links to pages you have visited to red.
+
+<style>
+a:visited
+ {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+4. Remove the default underline style for links, but add a underline when you mouse over a link (hover).
+
+<style>
+/* unvisited link */
+a:link
+ {text-decoration: none;}
+
+/* visited link */
+a:visited
+ {text-decoration: none;}
+
+/* mouse over link */
+a:hover
+ {text-decoration: underline;}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+CSS LISTS
+
+1. Set the list style for unordered lists to "square".
+
+<style>
+ul {
+  
+list-style-type: square;
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+2. Change the list's item marker to an image called 'bling.jpg':
+
+<style>
+ul {
+  
+list-style-image: url("bling.jpg");
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+3. Remove the bullets/markers from the list items.
+
+<style>
+ul {
+  list-style-type: none;
+}
+</style>
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+4. Set the list style to I, II, III, instead of 1, 2, 3 for ordered lists.
+
+<style>
+ol {
+  
+list-style-type: upper-roman;
+}
+</style>
+
+<body>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+</body>
+
+CSS TABLES
+
+1. Set the border to "2px solid green" for table, th and td elements.
+
+<style>
+table, th, td
+ {
+  border: 2px solid green;
+}
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+</body>
+
+2. Collapse the table borders into a single border.
+
+<style>
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid green;
+}
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+</body>
+
+3. Use inline styles to set the width of the table to "100%".
+
+<table 
+style="width:100%"
+>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+4. Set the text alignment in <td> elements to "right".
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+td
+ {
+  text-align: right;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+5. Set the padding in <th> elements to "15px".
+
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+th
+ {
+  padding: 15px;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+6. Set the background color of <th> elements to "lightblue".
+
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+th
+ {
+  background-color: lightblue;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+CSS DISPLAY/VISIBILITY
+
+1. Hide the <h1> element. It should still take up the same space as before.
+
+<style>
+h1 {
+  visibility: hidden;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Hide the <h1> element. It should NOT take up any space.
+
+<style>
+h1 {
+  display: none;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Display the list items as inline elements.
+
+<style>
+li
+ {
+  display: inline;
+}
+</style>
+
+<body>
+<ul>
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Pear</li>
+</ul>
+</body>
+
+4. Display the <strong> elements as block elements.
+
+<style>
+strong
+ {
+  display: block;
+}
+</style>
+
+<body>
+<h1>This is a Heading</h1>
+<p>This is a <strong>paragraph</strong></p>
+</body>
+
+CSS POSITIONING
+
+1. Position the <h1> element to always be 50px from the top, and 10px from the right, relative to the window/frame edges.
+
+<style>
+h1 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Position the <h1> element 50px from the top, relative to its normal position.
+
+<style>
+h1 {
+  position: relative;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Position the <h1> element 50px from the top, relative to the HTML page.
+
+<style>
+h1 {
+  position: absolute;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4. Position the <h1> element 50px from the top, by referring to its class name.
+
+
+<style>
+.myheader
+ {
+  position: relative;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1 class="myheader">This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+CSS Z-INDEX
+
+1. Both the header and the paragraph are positioned at the top of the page.
+
+Make sure that the header is placed on top of the paragraph.
+
+<style>
+#mytitle
+ {
+  position: absolute;
+  top: 0;
+  z-index: 1;  
+}
+#myintro
+ {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+</style>
+
+<body>
+  <h1 id="mytitle">This is a heading</h1>
+  <p id="myintro">This is a paragraph</p>
+</body>
+
+CSS OVERFLOW
+
+1. Force a scroll bar to the <div> element with class="intro".
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  
+overflow: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+2. Specify that the overflowing text in the <div> element should not be visible, not even with a scroll bar.
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+3.Add a horizontal scrollbar to the <div> element.
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow-x: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+CSS ALIGN
+
+1. Use the margin property to make sure that the <div> element is center aligned according to its parent element.
+
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+2. Position the <div> element all the way to the right by using absolute positioning.
+
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+CSS COMBINATORS
+
+1. Change the color of all <p> elements, that are descendants of <div> elements, to "red".
+
+<style>
+div p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+2. Change the color of all <p> elements, that are immediate children of <div> elements, to "red".
+
+<style>
+div > p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+3. Change the color of the first <p> element that is directly after a <div> element, to "red".
+
+<style>
+div + p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+4. Change the color of the <p> elements that are siblings of a <div> element, to "red".
+
+<style>
+div ~ p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+CSS PSEUDO-CLASSES
+
+1.Set the background-color to red, when you mouse over a link.
+
+<style>
+a:hover {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<h1>This is a header.</h1>
+<p>This is a paragraph.</p>
+<a href="https://w3schools.com">This is a link.</a>
+
+</body>
+
+2. Set the background-color to red, when you mouse over elements with the class "master".
+
+<style>
+.master:hover {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<h1 class="master">This is a header.</h1>
+<p class="master">This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+3. Set the background-color to red, of any <p> element that are the first child of any element.
+
+<style>
+p:first-child {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+4.Set the background-color to red, of any <input> element that are in focus.
+
+<style>
+input:focus {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<form>
+  Name:
+  <input type="text" name="fname">
+  Age:
+  <input type="text" name="age">
+</form>
+
+</body>
+
+CSS PSEUDO-ELEMENTS
+
+1. Set the background-color to red, of the first line of the paragraph.
+
+<style>
+.intro::first-line {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<p class="intro">
+In my younger and more vulnerable years
+my father gave me some advice that I've
+been turning over in my mind ever since.
+'Whenever you feel like criticizing anyone,' he told me,
+'just remember that all the people in this world
+haven't had the advantages that you've had.'
+</p>
+
+</body>
+
+2. Set the background-color to red, for the first letter of the <p> element.
+
+<style>
+.intro::first-letter {
+  background-color: red;
+}
+</style>
+<body>
+
+<p class="intro">
+In my younger and more vulnerable years
+my father gave me some advice that I've
+been turning over in my mind ever since.
+'Whenever you feel like criticizing anyone,' he told me,
+'just remember that all the people in this world
+haven't had the advantages that you've had.'
+</p>
+
+</body>
+
+3. Insert the image "smiley.gif" before, and after any <p>element, using the ::before and ::after pseudo-elements.
+
+<style>
+p::before {
+  content: url('smiley.gif');
+}
+p::after {
+  content: url('smiley.gif');
+}
+</style>
+<body>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</body>
+
+CSS OPACITY
+
+1. Use CSS to set the transparency of the image to 50%.
+
+<style>
+img {
+opacity: 0.5;
+}
+</style>
+<body>
+  <img src="klematis.jpg" width="150" height="113">
+</body>
+
+2. Use CSS to "remove" the transparency of the image when the user mouse over the image.
+
+<style>
+img {
+  opacity: 0.4;
+}
+img:hover {
+ opacity: 1.0;
+}
+</style>
+<body>
+  <img src="klematis.jpg" width="150" height="113">
+</body>
+
+CSS ATTRIBUTE SELECTORS
+
+1. Set the background color to "red" for <a> elements that have a target attribute.
+
+<style>
+a[target] {
+  background-color: red;
+}
+</style>
+<body>
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+</body>
+
+2. Set the background color to "red" for <a> elements that have a target attribute with the value "_blank".
+
+<style>
+a[target="_blank"] {
+  background-color: red;
+}
+</style>
+<body>
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+</body>
+
+3. Set a border for <img> elements that have a title attribute that contains the word blue.
+
+<style>
+img
+[title~="blue"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+ 
+4. Set a border for <img> elements that have a title attribute starting with blue.
+
+<style>
+img
+[title^="blue"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+5. Set a border for <img> elements that have a title attribute ending with the word flower (not flowers).
+
+<style>
+img
+[title$="flower"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+6. Set a border for <img> elements that have a title attribute containing the value flower (hint: flowers also contain flower).
+
+<style>
+img
+[title*="flower"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+CSS ROUNDED CORNERS
+
+1. Give the div element rounded corners.
+
+<style>
+div {
+  background: red;
+border-radius: 10px;  
+}
+</style>
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+2. Give the div element a rounded corner on the bottom left side.
+
+<style>
+div {
+  background: red;
+border-bottom-left-radius: 10px;  
+}
+</style>
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+CSS BORDER IMAGES
+
+1. Give the div element an image border. Use the short hand property to define the details of the image border.
+
+<style>
+div {
+  border: 10px solid transparent;
+   border-image: url(border.png) 30 round;
+}
+</style>
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+2. The image border needs a border-image-repeat value, insert one of the legal values.
+
+<style>
+div {
+  border-image-source: url(border.png);
+  border-image-repeat: stretch;  
+  border-image-slice: 30;
+}
+</style>
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+CSS BACKGROUNDS
+
+1. Add two background images to the <body> element.
+
+img1.gif and img2.gif.
+
+Make sure that img2.gif is displayed on top of img1.gif.
+
+<style>
+body {
+  background-image: url('img2.gif'), url('img1.gif');
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Set the width of the background image to 100px, and the height to 80px.
+
+<style>
+body {
+  background-image: url('img1.gif');
+  background-size: 100px 80px; 
+  background-repeat: no-repeat;  
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Position the two background images in each top corner.
+
+img1.gif at the left and img2.gif at the right.
+
+
+<style>
+body {
+  background-image: url('img1.gif'), url('img2.gif');
+  background-repeat: no-repeat, no-repeat;
+   background-position: left top, right top;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4. There is a CSS property that allows us to specify if the background image should be positioned according to the border, padding or the content.
+
+Insert the correct CSS background property, and value, to position the image according to where the content is positioned.
+
+<style>
+#example1 {
+  padding: 20px;
+  background-image: url('img1.gif');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+</style>
+
+5. The background-clip" property has three possible values, insert one of them.
+
+<style>
+#example1 {
+  border: 10px dotted red;
+  padding: 20px;
+  background-color: yellow;
+  background-clip: padding-box;
+}
+</style>
+
+CSS COLORS
+
+1. Insert the RGBA color value for a full red background color of the <h1> element, with no transparency.
+
+<style>
+h1 {
+  background-color: rgba(255, 0, 0, 1.0);
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Use hue, saturation and lightness to set a background color of the <h1> element.
+
+Set the hue to red, saturation to 100%, and lightness to 50%.
+
+<style>
+h1 {
+  background-color: hsl(0, 100%, 50%);
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. There is also a method where we can specify the alpha channel as well as hue, saturation, and lightness, what is the name of this method?
+
+<style>
+h1 {
+  background-color: hsla (0, 100%, 50%, 0.3);
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4. We can set the transparence for the whole element, not only the background, by using which CSS property?
+
+<style>
+h1 {
+  background-color: rgb(255, 0, 0);
+  opacity: 0.3;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
